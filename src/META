@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: 883fb9e0024928701ac47504875ea313)
+version = "%%VERSION%%"
+description = "Declarative definition of command line interfaces for OCaml"
+archive(byte) = "cmdliner.cma"
+archive(byte, plugin) = "cmdliner.cma"
+archive(native) = "cmdliner.cmxa"
+archive(native, plugin) = "cmdliner.cmxs"
+exists_if = "cmdliner.cma"
+# OASIS_STOP
+
